@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right,rgb(142, 210, 250),rgb(0, 0, 0));
+    background-size: cover;
+    height: 100vh;
+}
+.box{
+    padding: 30px;
+    width: 400px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    background: linear-gradient(to bottom right, rgb(187, 232, 242), rgb(218, 218, 174))
+}
+.box h2{
+    font-size: 30px;
+}
+#logo{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+#email, #pass {
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    padding: 8px;
+    border: 2px solid transparent;
+    outline: none;
+    transition: 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+#email:focus, #pass:focus {
+    border: 2px solid rgb(254, 143, 149);
+    background-color: rgba(255, 228, 230, 0.2);
+    transform: scale(1.02);
+}
+.otherLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.google, .apple{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 35px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+.divider hr {
+    flex-grow: 1;
+    border: none;
+    height: 1px;
+    background-color: #2d2b2b;
+}
+.divider span {
+    color: #3a3636;
+    font-size: 14px;
+    padding: 0 10px;
+}
+.apple{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.apple:hover, .google:hover{
+    background-color: rgb(155, 197, 234);
+    transition: background-color 0.3s ease-in-out;
+}
