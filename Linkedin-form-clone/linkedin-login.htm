@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h4 id="main-logo">Linked <section>in</section></h4>
+
+    <div class="login-box">
+        <h4 class="login-title">Sign in</h4>
+
+        <button class="google-btn">
+            <i class="fab fa-google"></i> Continue with Google
+        </button>
+        <button class="apple-btn">
+            <i class="fab fa-apple"></i> Sign in with Apple
+        </button>
+
+        <div class="divider">
+            <hr><span>or</span><hr>
+        </div>
+
+        <form action="#">
+            <input type="text" placeholder="Email or phone" id="email" required>
+            <input type="password" placeholder="Password" id="pass" required>
+            
+            <a href="#" class="forgot">Forgot password?</a>
+
+            <div class="keep-logged-in">
+                <input type="checkbox" id="keep-logged">
+                <label for="keep-logged">Keep me logged in</label>
+            </div>
+
+            <button type="submit" class="login-btn">Sign in</button>
+        </form>
+    </div>
+</body>
+</html>

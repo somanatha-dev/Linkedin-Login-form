@@ -1,0 +1,158 @@
+/* Reset & Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Centering the Login Box */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f3f2ef;
+}
+
+/* LinkedIn Logo */
+#main-logo {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(21, 107, 172);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#main-logo section {
+    display: inline-block;
+    background-color: rgb(21, 107, 172);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+/* Login Box */
+.login-box {
+    background: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Sign-in Title */
+.login-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Social Login Buttons */
+.google-btn, .apple-btn {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.google-btn i, .apple-btn i {
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+/* Apple Button */
+.apple-btn {
+    background-color: black;
+    color: white;
+}
+
+/* Divider */
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.divider hr {
+    flex-grow: 1;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.divider span {
+    color: #777;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: rgb(21, 107, 172);
+    outline: none;  
+}
+
+/* Forgot Password */
+.forgot {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    color: rgb(21, 107, 172);
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+/* Keep Me Logged In - Fixed */
+.keep-logged-in {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.keep-logged-in input {
+    width: 16px;
+    height: 16px;
+}
+
+/* Sign-in Button */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(21, 107, 172);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: rgb(18, 90, 150);
+}
